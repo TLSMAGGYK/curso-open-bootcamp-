@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Formularios </title>
+    </head>
+    <body>
+        formulario prueba 
+        <form action="resultados.html" method="get"> <!-- agupa un serie de elementos para que el usuario intodusca sus datos con el atributo acction hace referencia 
+                    al documento o a la url a la que enviamos esta informacion el metodo get es lo que pueden gestionar los navegadores el post es para servidores-->
+                <div>
+                    <label  for="nombreusuario">Usuario</label> <!-- label sirve poner etiqueta a alguno de los inputs con el 
+                    atibuto for le decimos a que se le apica el label como abajo el metodo -->
+                    <input type="text" name="nombreusuario" id="nombreusuario" required> <!-- que introdusca el usuario su usuario el metodo name es como para guardar el input el
+                    campo name sirve para diferenciar entre los inputs el atributo required sirve para que sea obligatorio de llenar -->
+                </div>
+                <div>
+                    <label for="contraseñausuario"> Contraseña </label>  
+                    <input type="password" name="contraseñausuario" id="contraseñausuario"> <!--Type password es para que la contraseña no se vea-->
+                </div>
+                <br> <!--es como un espacio en la bagina -->
+                <div>
+                    <label for="Comentarios">Comentarios</label>
+                    <textarea name="Comentarios" id="Comentarios" cols="" rows=""></textarea>
+                </div>
+                <div>
+                    <label for="phoneNum"> numero de telefono</label>
+                    <input type="number" name="phoneNum" min="0" id="celular">
+                </div>
+                <div>
+                    <label for="email"> correo electronico</label>
+                    <input type="email" name="email" id="correo">
+                </div>
+                <div>
+                    <label for="date"> fecha de nacimiento </label>
+                    <input type="date" name="nacimiento" id="birdDate">
+                </div>
+                <div>
+                    <label for="age"> edad</label>
+                    <input type="number" name="age" min="0" step="1" max="100" id="age">
+                </div>
+                <!-- Botones -->
+                <button type="reset">Reset</button>
+                <button type="submit">Enviar</button>
+        </form>
+    </body>
+</html>
