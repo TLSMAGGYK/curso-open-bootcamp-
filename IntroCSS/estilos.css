@@ -1,0 +1,29 @@
+h1 { 
+    color: red;
+}
+
+/* */
+p {
+    color: blue; /* poner el parrafo en azul */
+    font-size: 15pt; /* modificar tamaño */
+}
+
+#seletor-1 { /* selector de id  */
+    color: chartreuse;
+    font-size: 10pt;
+}
+
+.slector-2 { /* selector de clase  */
+    color: lightskyblue;
+    text-transform: uppercase; /* volver mayusculas  */
+}
+
+* { /* selector universal amenos que tegas un estilo vas a tener estas caracteristicas 
+    es tal cual que toods los elementos y puedes poner p despues pára que todas las 
+    etiquetas p tenga color linen puedes poner , como parametros para */
+    color: linen;
+}
+
+*, .slector-2, #seletor-1 { /* un ejemplo de lo de la coma   */
+ color: black;
+}
