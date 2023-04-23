@@ -1,0 +1,43 @@
+.colores {
+    color: rebeccapurple;
+}
+
+.colores_exadecimal{
+    color: #0E131F; /* poner almudilla # para colores exadecimales */
+}
+
+.color-rgb{ 
+    color: rgb(500, 50, 200) ; /* no tiene opacidad */
+}
+
+.color-rgba{
+    color: rgba(100, 500, 300, 0.3); /* diferencia de opacidad */
+}
+
+.fondo{ /* poner un fondo tambien se puede poner una imagen local en ves de una url */
+   /* background-color: yellowgreen; */
+    background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAQDw8PDw0NDQ0PDQ0NDQ0NDQ8NDQ0NFREWFhURFRUYHSggGBolGxUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OFRAPFSsZFR0rLSsrKy0rLS0rKy0tLS0rLS0tKzcrLTctLS0tNzctLSstLTctKy0tKysrLSstLS0rLf/AABEIALMBGgMBIgACEQEDEQH/xAAZAAEBAQEBAQAAAAAAAAAAAAACAQADBwb/xAAdEAEBAQEBAAMBAQAAAAAAAAAAAQIREgMhMWFR/8QAGQEBAQEBAQEAAAAAAAAAAAAAAgMBBgAE/8QAGREBAQEBAQEAAAAAAAAAAAAAAAERAjES/9oADAMBAAIRAxEAPwD7e0NwmsfVHFRwE657qisCo3W6SjdS1Q3Wtg21k6lp4eJaNSt0iwN6H0fyORRSF6T0iNxuJ8l65V1cvk4cU5GwLD61hm56Cx01BKHAGuljjdFCjWBqH6HVKHHJl0N0akXoa01o0pGyN1Naaha2Q5BsG0rXHX6pFOYVot0PX8LDkeneku3O6ZzWOQ+U3fsKenM4cGoWhI2DS2o2FAFusZpoS0Gq2FB1Qv0Q7OKQLpLWtc/kpyKSFdCHW6WHjaida1zlKQpDug6qUo2JXGuunLRRTlEq0SMNOdPSKQ4PW6liVpBrQnrIEcauej0OihRzqLUNR6RpC0Lm3IxN0OlobChRgtJz02Q5G6G6oWnIpINbqpSJta+nG6O1z1CkPmN1KzETnR06ajnThxzSlsDikauTpXMocWVaLdebg0dtehs5DkS1PSJTw8C6T02w6cUkO6c/SppsKRfQ6iJa3G4OqF0tgU5FJAvRNj09elhV9B8mnNSOQkRLRuhPFPldaHSVLSkOQd0UqGeL0N0tVzpSHI3WRmkglqud0UhQrXDWl1RpyHzB05zX+ulctw4rDt+nNnOlIUh2p0GLCwrpyt+zc9tkKRKOqtrnacikg7orpDikbqonGtQNVdbc+lIcipqoO6UhSB1OpaimKY9Ltc91Erm5HJSJ1msEjXQVtaH0UhSLqAXpz+SthRLUTqdPFMW0LoahYUi9HdUNthSC1ZjMKmp9Na3oicqzaqejUS5E/SWxrYFHX4trdI3KhqHaOtQ4pHPSDdCeKYV0NrWoRYKWLWIhct6dN1w3C5U5jdboMZ49JRaNrm45KMO61050pCkaVrArSlimEGy9JtsejnYJpTNzsEutSOC56dK5NhRhtTeh9HIpItgVbpy3TkORaFrWhTkOQuoPV9NwsEbUuhLDkHdDq0VIpGo0nPTYcVg6vosbi0bVugtbGyI5bdQ+SFFJ65WIScNR6NdBS1Bc7HJwbUTUQsPG0K6rmUhSFanRa1uFia0No1ro8PGboXY9LCwtaBejpsKDQpdD5DikS0Nt0N05FJGROr0iajSTTWxxqUqGjikFKoa2RxN0UtTp4pItgr0dVsbEtFUpFG6mtfQ6256pSHOW9J7cl6eKfL0wNQvQ605uORg2AUqahHA0Ni1jOAOqWvpzKFEoaOuZRSDYhJYRIFW1CIU0VHRQ452BXWxxOKQWWoRMmtJajcbg9c90qNOKRztFtIpFY1EnPdbCjXQp1ulhY1g7pWudrYUFKVCnFIGkXdD2cOR6YC2o5pyKaTpVy1ShRKnV9BqkcTVFmIw3Q6e4HDhxOjqnxy1ooUZE9JdFh4YbT0mmyNkDWnKnoNqRXlLofSJTkUkLrA1r2Nwd0LV0OjhwRpIZja5luiUOChaDpFGTUVmk5udrrXGnFORo+VYjekdTrWM5xySWuVdNOdKFyg1bUI4CytU6RLr8cytc7WwpE3py0Q6UikFKrNMF6loWlhYlrn8h2Bo4pAlapW6ZtaKatH03CkKuWqXqueoUhyN1LWTRnI51C056pQ4mqKpTON1fQta9jcXbho7XHVPmHzFTqMWHj0ywF9prTm45CaFDROe6cUiIyapG57rStQPFJD05aq7oUpC5jWhq9a1ikORz6xagUjga/U9LsTOF6c9LRsbIUiaDq6C5OKSEljmzcbhXIVXPRSFI1gWrquZyKSNvTmtQ4pIyVk00sS6EW6eFhOW/07pz3psKInqMB4pj0wKrOajkIIaZihwQ2zHDghWYocGh8v4jHFJ659brMahRz0zPR6DsGY4cSozNJz3+ozGpPE1HNmbCiaDTMcOBXNWOKRzZmM0HTM2NgaDVZjikFKrNIKLMRv/Z");
+    background-position: center ;
+}
+/* tamaños */
+.ancho{
+    background-color: dodgerblue;
+    width: 100px; /* width es una serie de posibilidades lo mas usado son pixeles pero no es 
+    lo mas recomendable lo recomendabel es flexbox o greed */
+}
+
+.alto{
+    background-color: aqua;
+    height: 500px; /* se usa la propiedad de height para la altura se pueedn juntar las 2*/
+    width: 200px; /* como en este que esta en heitgh y width */
+}
+
+.Tarjeta{
+    border-style: solid; /* hacendo un borde el tipico es solid  */
+    border-width: 1px;
+    padding: 10px 20px; /* el espacio interior del elemento */
+    margin: 10px 20px; /* el espacion que hay entre cada elemento como los div 
+    es como un br   */
+    /* border-top: none; */
+    border-color: rgb(150, 150, 150)
+}
