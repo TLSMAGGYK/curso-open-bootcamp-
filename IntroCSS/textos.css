@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap'); /* importar fuente
+ desde la web es mejor de este modo  */
+
+.html { /* todo el documento html */
+    /* font-family: 'Courier New', Courier, monospace; */ /* font famiili es para dar un eslido de letra
+    como arial */
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: medium; /* ctrl + spacio  font size tamaño de la fuente */
+    font-weight: 100; /* es para que se vea o vuelva mas negrita depende de las fuentes para que se vea negrita */
+
+}
